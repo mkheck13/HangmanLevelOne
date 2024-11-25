@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <div class="hangman-container">
+    <h1>Hangman</h1>
+    <!-- Guesses Left -->
+    <h2 id="hangMan">Guess Left</h2>
+
+    <!-- Word to guess -->
+    <div id="wordToGuess" class="word-to-guess">[Secret Word]</div>
+
+    <!-- Wrong guesses -->
+    <div id="wrongGuesses" class="wrong-guesses">Wrong guesses will appear here</div>
+
+    <!-- User input -->
+    <div class="user-input">
+      <input type="text" id="userInput" maxlength="1" placeholder="[A-Z]" readonly>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="startBtn" >Start</button>
+      <button id="restartBtn" >Restart</button>
+    </div>
+  </div>
+
+
+
+
+  <script src="./scripts/app.js"></script>
+</body>
+</html>
